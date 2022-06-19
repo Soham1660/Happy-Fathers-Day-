@@ -1,0 +1,43 @@
+
+body{
+    margin:0px;
+    background-color:lightblue;
+    
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    
+}
+.grid img{ 
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.traits {
+    
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    
+}
+img {
+    border:5px solid royalblue;
+    border-radius: 3px;
+}
+.background{
+    background-color: lightblue;
+}
+
+a:link{
+    color:white
+}
+a:visited{
+    color: white;
+}
+.traits:hover{
+    transform: scale(1.2);
+} 
